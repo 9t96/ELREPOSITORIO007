@@ -20,7 +20,7 @@ namespace EJERCICIO47
         /// El animal camina sobre X cantidad de patas.
         /// </summary>
         /// <returns></returns>
-        protected virtual string Caminar()
+        public virtual string Caminar()
         {
             return "Este animal camina sobre ";
         }

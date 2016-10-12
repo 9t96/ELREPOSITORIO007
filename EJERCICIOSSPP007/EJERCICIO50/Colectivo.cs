@@ -9,8 +9,9 @@ namespace EJERCICIO50
     public abstract class Colectivo
     {
         private int _numeroDeLinea;
-        private _numeroDeMovil;
-        protected List<Pasajeros> _listPasajeros;
-        public Colectivo()
+        private int _numeroDeMovil;
+        protected List<Pasajero> _listPasajeros;
+        
+        public abstract string colectivo();
     }
 }

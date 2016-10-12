@@ -10,24 +10,9 @@ namespace EJERCICIO47
     {
         private string _nombre;
 
-        public Araña(int patas) : base(patas)
+        public Araña(int patas)
+            : base(patas)
         {
-        }
-
-        /// <summary>
-        /// Propiedad get&set implementada de IMascota.
-        /// </summary>
-        public string Nombre
-        {
-            get
-            {
-                return this.
-            }
-
-            set
-            {
-                
-            }
         }
 
         public override void Comer()
@@ -38,6 +23,24 @@ namespace EJERCICIO47
         public void Jugar()
         {
             Console.WriteLine("JUEGA CON LA TELARAÑA");
+        }
+
+        public override string Caminar()
+        {
+            return string.Concat(base.Caminar()+" "+this._patas+" patas.");
+        }
+
+
+        public string Nombre
+        {
+            get
+            {
+                return this._nombre;
+            }
+            set
+            {
+                _nombre = value;
+            }
         }
     }
 }
