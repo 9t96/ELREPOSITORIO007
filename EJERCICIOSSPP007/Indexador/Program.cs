@@ -17,10 +17,10 @@ namespace Indexador
 
             Laboratorio miLab = new Laboratorio("HOLA");
 
-            //miLab[0] = "exo";
+            miLab[0] = "exo";
             miLab[1] = "lg";
-            //miLab[3] = pc3;
-            //miLab[2] = pc3;
+            miLab[3] = pc3;
+            miLab[2] = pc3;
 
             for (int i = 0; i < miLab._listPc.Count; i++)
             {

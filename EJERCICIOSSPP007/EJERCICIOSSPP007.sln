@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexador", "Indexador\Inde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaIndexador", "LibreriaIndexador\LibreriaIndexador.csproj", "{F403B6B1-30A0-4725-A7F8-4D57CB3E69CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExepcionBasica", "ExepcionBasica\ExepcionBasica.csproj", "{00CB6833-B729-424B-AC25-6705663503FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{F403B6B1-30A0-4725-A7F8-4D57CB3E69CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F403B6B1-30A0-4725-A7F8-4D57CB3E69CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F403B6B1-30A0-4725-A7F8-4D57CB3E69CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CB6833-B729-424B-AC25-6705663503FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CB6833-B729-424B-AC25-6705663503FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CB6833-B729-424B-AC25-6705663503FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CB6833-B729-424B-AC25-6705663503FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
