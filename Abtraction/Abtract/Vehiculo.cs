@@ -31,6 +31,7 @@ namespace Abtract
             return this.patente;
         }
 
+        //Se debe implementar en la herencia obligatoriamente.
         public abstract float CalcularCosto();
 
     }
