@@ -34,8 +34,7 @@ namespace ExepcionBasica
                 catch (PinchaduraException mipicnahdura)
                 {
                     AutoException miexcepauto =  new AutoException("algo", mipicnahdura.timeException, this);
-
-                   
+                  
                     throw miexcepauto;
 
                 }

@@ -12,40 +12,41 @@ namespace ExepcionBasica
         {
             List<Rueda> listarueda = new List<Rueda>();
 
-            Carrera carrera = new Carrera("argentino");
-            
-            Auto car1 = new Auto("Renault",30,listarueda);
-            Auto car2 = new Auto("Fiat", 40, listarueda);
-            Auto car3 = new Auto("Chevrolet", 50, listarueda);
-            Auto car4 = new Auto("Mazda", 60, listarueda);
-
-            carrera._miList.Add(car1);
-            carrera._miList.Add(car2);
-            carrera._miList.Add(car3);
-            carrera._miList.Add(car4);
-
-            car1._misRuedas.Add(new Rueda("Firestone"));
-            car1._misRuedas.Add(new Rueda("Godyear"));
-            car1._misRuedas.Add(new Rueda("Michelin"));
-            car1._misRuedas.Add(new Rueda("samperio"));
-            
-            car2._misRuedas.Add(new Rueda("samperio"));
-            car2._misRuedas.Add(new Rueda("Firestone"));
-            car2._misRuedas.Add(new Rueda("Firestone"));
-            car2._misRuedas.Add(new Rueda("samperio"));
-
-            car3._misRuedas.Add(new Rueda("Michelin"));
-            car3._misRuedas.Add(new Rueda("Michelin"));
-            car3._misRuedas.Add(new Rueda("Firestone"));
-            car3._misRuedas.Add(new Rueda("Firestone"));
-
-            car4._misRuedas.Add(new Rueda("Preston"));
-            car4._misRuedas.Add(new Rueda("Preston"));
-            car4._misRuedas.Add(new Rueda("Preston"));
-            car4._misRuedas.Add(new Rueda("Preston"));
-
             try
             {
+                Carrera carrera = new Carrera("argentino");
+            
+                Auto car1 = new Auto("Renault",30,listarueda);
+                Auto car2 = new Auto("Fiat", 40, listarueda);
+                Auto car3 = new Auto("Chevrolet", 50, listarueda);
+                Auto car4 = new Auto("Mazda", 60, listarueda);
+
+                carrera._miList.Add(car1);
+                carrera._miList.Add(car2);
+                carrera._miList.Add(car3);
+                carrera._miList.Add(car4);
+
+                car1._misRuedas.Add(new Rueda("Firestone"));
+                car1._misRuedas.Add(new Rueda("Godyear"));
+                car1._misRuedas.Add(new Rueda("Michelin"));
+                car1._misRuedas.Add(new Rueda("samperio"));
+            
+                car2._misRuedas.Add(new Rueda("samperio"));
+                car2._misRuedas.Add(new Rueda("Firestone"));
+                car2._misRuedas.Add(new Rueda("Firestone"));
+                car2._misRuedas.Add(new Rueda("samperio"));
+
+                car3._misRuedas.Add(new Rueda("Michelin"));
+                car3._misRuedas.Add(new Rueda("Michelin"));
+                car3._misRuedas.Add(new Rueda("Firestone"));
+                car3._misRuedas.Add(new Rueda("Firestone"));
+
+                car4._misRuedas.Add(new Rueda("Preston"));
+                car4._misRuedas.Add(new Rueda("Preston"));
+                car4._misRuedas.Add(new Rueda("Preston"));
+                car4._misRuedas.Add(new Rueda("Preston"));
+
+
 
 
                 carrera.CorrerCarrera();
@@ -61,6 +62,11 @@ namespace ExepcionBasica
             {
                 Console.WriteLine("EXCEPCION PINCHADURA CUIDADO AUTO SIN CONTROL");
                 Console.WriteLine(fe.Message);
+            }
+            catch(NombreAutodromoException ex)
+            {
+                Console.WriteLine("La carrera no sera en chaco.");
+                Console.WriteLine(ex.Message);
             }
             catch (miExcepcion dvz)
             {

@@ -14,9 +14,10 @@ namespace ExepcionBasica
         public Carrera(string nombre)
         {
             _miList = new List<Auto>();
+            autodromo = nombre;
             
-            if(nombre != "ChacoRace")
-                throw new Exception();
+            if (nombre != "ChacoRace")
+                throw new NombreAutodromoException("El autodromo no es chaco", DateTime.Now);
             
             autodromo = nombre;
         }

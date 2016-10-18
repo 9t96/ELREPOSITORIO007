@@ -20,9 +20,10 @@ namespace ExepcionBasica
             this.textoHora = time.ToString();
         }
 
-        public miExcepcion(string mssg, DateTime time)
-        { 
-            
+        public miExcepcion(string mssg, DateTime time):base(mssg)
+        {
+            this.timeException = time;
+            this.textoHora = time.ToString();
         }
 
     }
