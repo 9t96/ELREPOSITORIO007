@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExepcionBasica", "ExepcionB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioExcepciones", "EjercicioExcepciones\EjercicioExcepciones.csproj", "{7B8A8FCC-4F62-4A4D-A74B-6432D052F554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsDiaLLuvioso", "ArchivosdeTextoDiaLLuvioso\GenericsDiaLLuvioso.csproj", "{631DEA1B-7948-4628-A108-6D017B428D94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{7B8A8FCC-4F62-4A4D-A74B-6432D052F554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B8A8FCC-4F62-4A4D-A74B-6432D052F554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B8A8FCC-4F62-4A4D-A74B-6432D052F554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631DEA1B-7948-4628-A108-6D017B428D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631DEA1B-7948-4628-A108-6D017B428D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631DEA1B-7948-4628-A108-6D017B428D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631DEA1B-7948-4628-A108-6D017B428D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

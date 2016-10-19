@@ -20,10 +20,12 @@ namespace EjercicioExcepciones
             */
             
             Juancito juan = new Juancito(20, "pepe");
-
+            Robertino robert = new Robertino(10);
+            
             try
             {
-                juan.EsJuan();
+                robert.robertico()//PT.2
+                juan.EsJuan();//PT.1
             }
             catch (Exception ex)
             {

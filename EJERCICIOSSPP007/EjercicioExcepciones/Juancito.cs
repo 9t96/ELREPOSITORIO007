@@ -18,6 +18,8 @@ namespace EjercicioExcepciones
 
                 if(nombre == "Ricardo")
                     throw new Exception("SE LLAMA RICARDO");
+
+            s
         }
 
         public void EsJuan()
