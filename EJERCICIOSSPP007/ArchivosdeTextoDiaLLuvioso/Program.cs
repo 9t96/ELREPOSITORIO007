@@ -35,6 +35,48 @@ namespace ArchivosdeTextoDiaLLuvioso
             misMascotas.Agregar(m2);
             misMascotas.Agregar(m3);
 
+            misPersonas.Agregar(p1);
+            misPersonas.Agregar(p2);
+            misPersonas.Agregar(p3);
+
+            misVehiculos.Agregar(v1);
+            misVehiculos.Agregar(v2);
+            misVehiculos.Agregar(v3);
+
+            misProductos.Agregar(prod1);
+            misProductos.Agregar(prod2);
+            misProductos.Agregar(prod3);
+
+            Console.WriteLine("---------MASCOTAS--------");
+            foreach (Mascota item in misMascotas)
+            {
+                item.ToString();
+            }
+            //IMPRIMO PERSONAS.
+            Console.WriteLine("--------PERSONAS--------");
+            foreach (Persona item in misPersonas)
+            {
+                item.ToString();
+            }
+            //IMPRIMO VEHICULOS.
+            Console.WriteLine("-------VEHICULOS-------");
+            foreach (Vehiculo item in misVehiculos)
+            {
+                item.ToString();
+            }
+            // IMPRIMO PRODUCTOS.
+            foreach (Producto item in misProductos)
+            {
+                item.ToString();
+            }
+
+
+
+
+
+
+            Console.ReadKey();
+
         }
     }
 }

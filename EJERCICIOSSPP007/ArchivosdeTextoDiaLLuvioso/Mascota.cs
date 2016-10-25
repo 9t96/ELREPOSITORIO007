@@ -17,6 +17,16 @@ namespace ArchivosdeTextoDiaLLuvioso
             this.raza = raza;
         }
 
+        public override string ToString()
+        {
+            StringBuilder str = new StringBuilder();
+
+            str.AppendLine("Nombre: " + this.nombre);
+            str.AppendLine("Raza: " + this.raza);
+
+            return str.ToString();
+        }
+
         public static bool operator ==(Mascota mUno, Mascota mDos)
         {
             return (mUno.raza == mDos.raza && mUno.nombre == mDos.nombre);

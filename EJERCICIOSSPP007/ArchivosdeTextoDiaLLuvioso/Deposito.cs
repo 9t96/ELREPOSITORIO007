@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ArchivosdeTextoDiaLLuvioso
 {
-    public class Deposito<T>
+    public class Deposito<T>:IEnumerable<T>
     {
         public List<T> _misProductos;
         public int cantidadMax;
@@ -62,5 +63,16 @@ namespace ArchivosdeTextoDiaLLuvioso
                 
         }
 
+
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return new _misprd
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return (IEnumerator<T>)GetEnumerator();
+        }
     }
 }

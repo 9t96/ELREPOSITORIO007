@@ -17,6 +17,17 @@ namespace ArchivosdeTextoDiaLLuvioso
             this.nombre = nombre;
         }
 
+        public override string ToString()
+        {
+            StringBuilder str = new StringBuilder();
+
+            str.AppendLine("nombre: " + this.nombre);
+            str.AppendLine("Dni: " + this.dni);
+
+            return str.ToString();
+
+        }
+
         public static bool operator ==(Persona pUno, Persona pDos)
         {
             return (pUno.dni == pDos.dni);
