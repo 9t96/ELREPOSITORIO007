@@ -1,0 +1,30 @@
+		|
+		|	Clase Estatica 							Clase no estatica
+		|
+Similitudes	|	-Ambas pueden poseer atributos, propiedades y metodos.
+		|	-Se pueden sobrecargar los metodos.
+		|	-Se pueden implementar interfaces.
+			-Se pueden sobrecargar operador unarios, explicitos, implicitos.
+		|
+		|
+		|
+		|
+		|
+		|
+-------------------------------------------------------------------------------------------------------------------------------------
+		|	-La clase estatica se llama por su nombre.				-Se llama por el nombre de la instancia.
+		|			
+		|	-No se puede crear instancia.						-Se debe crear una instancia.
+		|
+Diferencias 	|	-No puede tener metodos ni atibutos de instancia.			-Puede contener metodos y atributos estaticos.	
+		|
+		|	-No se puede heredar de una clase estatica.				-Se pueden heredar.
+
+
+		metodos vs contruct
+		clases vs objetos
+		virtuales vs abstractos
+		clase abstracta vs interfaces
+		colecciones gen vs non gen
+		clases estaticas vs nos static 	
+		metodos static vs motodos nos static
