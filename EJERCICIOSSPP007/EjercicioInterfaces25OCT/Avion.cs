@@ -13,7 +13,7 @@ namespace EjercicioInterfaces25OCT
         public Avion(double precio, double velocidadMax)
             : base(precio)
         {
-            this.Precio = velocidadMax;
+            this._velocidadMaxima = velocidadMax;
         }
 
         double IAFIP.CalcularImpuesto()
@@ -21,6 +21,10 @@ namespace EjercicioInterfaces25OCT
             return this.Precio * 1.33;
         }
 
+        double IARBA.CalcularImpuesto()
+        {
+            return this.Precio * 1.27;
+        }
 
         public override double Precio
         {
@@ -34,9 +38,5 @@ namespace EjercicioInterfaces25OCT
             }
         }
 
-        double IARBA.CalcularImpuesto()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

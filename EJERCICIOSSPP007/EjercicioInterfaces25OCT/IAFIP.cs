@@ -9,5 +9,7 @@ namespace EjercicioInterfaces25OCT
     interface IAFIP
     {
         double CalcularImpuesto();
+
+        
     }
 }

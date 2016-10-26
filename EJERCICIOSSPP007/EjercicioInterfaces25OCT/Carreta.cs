@@ -5,12 +5,17 @@ using System.Text;
 
 namespace EjercicioInterfaces25OCT
 {
-    public class Carreta:Vehiculo
+    public class Carreta:Vehiculo,IARBA
     {
         public Carreta(double precio)
              :base(precio)
         {
             
+        }
+
+        public double CalcularImpuesto()
+        {
+            return this.Precio * 1.18;
         }
 
         public override double Precio
@@ -24,5 +29,6 @@ namespace EjercicioInterfaces25OCT
                 base._precio = value;
             }
         }
+
     }
 }

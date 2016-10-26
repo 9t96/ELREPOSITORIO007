@@ -10,6 +10,10 @@ namespace EjercicioInterfaces25OCT
     {   
         static void Main(string[] args)
         {
+            Comercial my = new Comercial(100, 750);
+
+            
+            Console.ReadKey();
         }
     }
 }

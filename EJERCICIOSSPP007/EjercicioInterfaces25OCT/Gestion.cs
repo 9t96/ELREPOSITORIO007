@@ -9,12 +9,12 @@ namespace EjercicioInterfaces25OCT
     public static class Gestion
     {
 
-        public double MostrarImpuestoNacional(IAFIP bienpunible)
+        static double MostrarImpuestoNacional(IAFIP bienpunible)
         {
             return bienpunible.CalcularImpuesto();
         }
 
-        public double MostrarImpuestoProvincial(IARBA bienpunible)
+        static double MostrarImpuestoProvincial(IARBA bienpunible)
         {
             return bienpunible.CalcularImpuesto();
         }

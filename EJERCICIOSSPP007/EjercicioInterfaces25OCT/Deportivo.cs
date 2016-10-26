@@ -21,6 +21,13 @@ namespace EjercicioInterfaces25OCT
             return this.Precio * 1.28;
         }
 
+        //Para que no haya problemas de firma una se declara explicit y el otro se implementa como un metodo propio.
+        public double CalcularImpuesto()
+        {
+            return this.Precio * 1.23;
+        }
+
+
         public override double Precio
         {
             get
@@ -32,5 +39,6 @@ namespace EjercicioInterfaces25OCT
                 base._precio = value;
             }
         }
+
     }
 }

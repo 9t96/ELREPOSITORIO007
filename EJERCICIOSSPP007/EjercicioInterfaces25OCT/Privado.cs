@@ -8,6 +8,9 @@ namespace EjercicioInterfaces25OCT
 {
     public class Privado:Avion
     {
+        public Privado(float precio,float velocidadMax)
+            :base(precio,velocidadMax)
+        {}
 
     }
 }
