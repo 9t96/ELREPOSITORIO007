@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsDiaLLuvioso", "Arch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioInterfaces25OCT", "EjercicioInterfaces25OCT\EjercicioInterfaces25OCT.csproj", "{8F0A3898-5089-4D78-95E0-1AC15633E223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcrituraArchivosMIO", "EcrituraArchivosMIO\EcrituraArchivosMIO.csproj", "{02267DC7-D74F-4AF6-8E7B-4083627F6D9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{8F0A3898-5089-4D78-95E0-1AC15633E223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F0A3898-5089-4D78-95E0-1AC15633E223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F0A3898-5089-4D78-95E0-1AC15633E223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02267DC7-D74F-4AF6-8E7B-4083627F6D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02267DC7-D74F-4AF6-8E7B-4083627F6D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02267DC7-D74F-4AF6-8E7B-4083627F6D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02267DC7-D74F-4AF6-8E7B-4083627F6D9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
