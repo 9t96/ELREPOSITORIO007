@@ -59,5 +59,34 @@ namespace EsctrituraArchivosLlueveChalalora
 
             return p;
         }
+
+        public static List<Persona> RetornarListado()
+        {
+            string[] misDatos;
+            string renglon;
+            Persona p;
+            List<Persona> lista= null; 
+            
+            try
+            {
+                lista = new List<Persona>();
+                
+                using (StreamReader lector = new StreamReader("Persona.txt"))
+                {
+                    while ((renglon=lector.ReadLine())!=null)
+                    {
+                        misDatos = renglon.Split(',');
+                        p = new Persona(misDatos[0], misDatos[1]);
+                        lista.Add(p);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                               
+            }
+
+            return lista;
+        }
     }
 }

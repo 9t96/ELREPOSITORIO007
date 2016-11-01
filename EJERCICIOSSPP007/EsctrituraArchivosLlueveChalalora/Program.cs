@@ -12,12 +12,14 @@ namespace EsctrituraArchivosLlueveChalalora
         static void Main(string[] args)
         {
             Persona p1 = new Persona("Juan", "333");
-            
+            List<Persona> lista = null;
             Guardador.GuardarPersona(p1);
-            p1 = Guardador.LeerUnaPersona();
+            lista=Guardador.RetornarListado();
 
-            Console.WriteLine(p1.ToString());
-            
+            foreach (Persona item in lista)
+            {
+                Console.WriteLine(item.ToString());
+            }
             Console.ReadKey();
         }
     }
