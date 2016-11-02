@@ -8,7 +8,7 @@ using System.Xml.Serialization;
 namespace ConsoleApplication1
 {
         [XmlInclude(typeof(Alumno))] //Hace falta para que reconozca la calse alumno para poder serializarla.
-    public class Persona
+    public class Persona:ISerialiable2016
     {
         public string nombre;
         public List<Persona> laLista;
@@ -23,5 +23,17 @@ namespace ConsoleApplication1
             this.nombre = nombre;           
         }
 
+
+        public bool Serializar()
+        {
+            return Serializador.SerializarPersona(this);
+            
+        }
+
+
+        public bool Deserializar()
+        {
+            //Necesita codigo.
+        }
     }
 }

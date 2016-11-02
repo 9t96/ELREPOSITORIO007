@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Alumno.cs" />
     <Compile Include="Aula.cs" />
+    <Compile Include="ISerialiable2016.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

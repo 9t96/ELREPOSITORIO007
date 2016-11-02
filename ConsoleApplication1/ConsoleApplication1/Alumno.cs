@@ -17,6 +17,7 @@ namespace ConsoleApplication1
             : base(nombre)
         {
             this.legajo = legajo;
+            
         }
 
     }
