@@ -7,7 +7,7 @@
     <ProjectGuid>{DAFD763D-D281-4682-AF4A-1B74D3BCE146}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <RootNamespace>EscrituraXMLInterface</RootNamespace>
     <AssemblyName>ConsoleApplication1</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

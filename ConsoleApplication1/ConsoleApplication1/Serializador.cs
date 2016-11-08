@@ -5,14 +5,16 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace ConsoleApplication1
+namespace EscrituraXMLInterface
 {
     public static class Serializador
     {
-        public static void SerializarPersona(Persona p)
+        public static bool SerializarPersona(Persona p)
         { 
             //XmlTextWriter->Hereda de textewriter.
             //XmlSerializer hola = new XmlSerializer();
+            bool succed = false;
+
             XmlSerializer serial = null;
             try
             {
@@ -21,18 +23,22 @@ namespace ConsoleApplication1
                     serial = new XmlSerializer(typeof(Persona));
                     //LE PASO EL ESCRITOR XML Y LA PERSONA(1) PARA SERIALIZAR.
                     serial.Serialize(escritor, p);
+                    succed = true;
                 }
 
             }
             catch (Exception)
             {
-
+                succed = false;
             }
-        
+
+            return succed;       
         }
 
-        public static void SerializarListado(List<Persona> listaASerial)
+        public static bool SerializarListado(List<Persona> listaASerial)
         {
+            bool succed = false;
+
             XmlSerializer serial = null;
 
             try
@@ -42,17 +48,21 @@ namespace ConsoleApplication1
                     serial = new XmlSerializer(typeof(List<Persona>));
                     //LE PASO EL ESCRITOR XML Y LA LISTA PARA SERIALIZAR.
                     serial.Serialize(escritor, listaASerial);
+                    succed = true;
                 }
 
             }
             catch (Exception)
             {
-
+                succed = false;
             }
+
+            return succed;
         }
 
-        public static void SerializarAula(Aula miAula)
+        public static bool SerializarAula(Aula miAula)
         {
+            bool succed = false;
             XmlSerializer serial = null;
 
             try
@@ -62,14 +72,16 @@ namespace ConsoleApplication1
                     serial = new XmlSerializer(typeof(Aula));
                     //LE PASO EL ESCRITOR XML Y EL AULA PARA SERIALIZAR.
                     serial.Serialize(escritor, miAula);
+                    succed = true;
                 }
 
             }
             catch (Exception)
             {
-
-
+                succed = false;
             }
+
+            return succed;
         }
 
         public static bool SerializarGenerico(ISerialiable2016 serializable2016)
@@ -88,13 +100,11 @@ namespace ConsoleApplication1
                     XmlSerializer serializador = new XmlSerializer(typeof(Persona));
 
                     p1 = (Persona)serializador.Deserialize(lector);
-
-                    return p1;
                 }
             }
             catch (Exception)
             {
-                                
+                p1 = null;           
             }
 
             return p1;

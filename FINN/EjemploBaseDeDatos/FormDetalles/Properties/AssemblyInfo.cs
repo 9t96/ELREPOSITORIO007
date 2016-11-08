@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EscrituraXMLInterface")]
+[assembly: AssemblyTitle("FormDetalles")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EscrituraXMLInterface")]
+[assembly: AssemblyProduct("FormDetalles")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("250f40e6-ebc7-4575-ab05-ce9d53250bd4")]
+[assembly: Guid("96ac37fa-5687-4d0f-9a56-a1710fd4b144")]
 
 // Version information for an assembly consists of the following four values:
 //

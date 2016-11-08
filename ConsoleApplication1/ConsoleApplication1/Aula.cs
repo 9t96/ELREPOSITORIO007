@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace ConsoleApplication1
+namespace EscrituraXMLInterface
 {
  
     public class Aula
@@ -31,7 +31,7 @@ namespace ConsoleApplication1
         }
 
         //Si o si tien que tener constructor por defecto si no no serializa.
-        public Aula()
+        private Aula()
         { 
             
         }

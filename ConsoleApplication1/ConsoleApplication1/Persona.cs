@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace ConsoleApplication1
+namespace EscrituraXMLInterface
 {
         [XmlInclude(typeof(Alumno))] //Hace falta para que reconozca la calse alumno para poder serializarla.
     public class Persona:ISerialiable2016
@@ -26,14 +26,19 @@ namespace ConsoleApplication1
 
         public bool Serializar()
         {
-            return Serializador.SerializarPersona(this);
-            
+            return Serializador.SerializarPersona(this);        
         }
 
-
-        public bool Deserializar()
+/*
+        public Persona Deserializar()
         {
-            //Necesita codigo.
+            return Serializador.DesserializarPersona(this);
+        }*/
+
+
+        bool ISerialiable2016.Deserializar()
+        {
+            throw new NotImplementedException();
         }
     }
 }
