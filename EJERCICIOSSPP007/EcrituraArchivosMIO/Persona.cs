@@ -31,21 +31,27 @@ namespace EcrituraArchivosMIO
         public bool Guardar(string archivo, Persona datos)
         {
             StreamWriter escribir;
-            
+            bool escribio = false;
+
             if (!File.Exists(archivo))
             {
-                escribir = File.CreateText(archivo);                
+                escribir = File.CreateText(archivo);
                 escribir.WriteLine(((Persona)datos).ToString());
                 escribir.Close();
-                return true;
+                escribio = true;
             }
-            else if()
+            else if (File.Exists(archivo))
             {
-                escribir = File.Open(archivo);
-                escribir.WriteLine
+                escribir = File.Open(archivo,
+                escribir.WriteLine(((Persona)datos).ToString());
+                escribir.Close();
+                escribio = true;
             }
             else
+                escribio = false;
                 throw new Exception("El archivo ya existe.");
+
+            return escribio;
 
 
         }
