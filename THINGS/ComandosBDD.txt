@@ -1,0 +1,19 @@
+select id,apellido
+from persona
+
+insert into persona
+(nombre,apellido,sexo)
+values
+('juan','lopez','Femeno')
+
+
+select trae datos
+uptadate modifica
+insert agregaa la tabla
+delete elimina de la tabla.
+
+crear base
+crear tabla
+agregar algo
+guardar la tabla
+crear conexion a traves de settings
