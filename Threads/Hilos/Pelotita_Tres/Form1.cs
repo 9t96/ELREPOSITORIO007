@@ -24,7 +24,6 @@ namespace Pelotita_Tres
         public void Pausar()
         {
             this.mithread.Suspend();
-            //MessageBox.Show("eeeeeeeeeeeeeee");
         }
 
         public void Destruir()
@@ -56,11 +55,23 @@ namespace Pelotita_Tres
 
         private void btnDestroy_Click(object sender, EventArgs e)
         {
-            this.Destruir();
+            try
+            {
+                this.Destruir();
+                //Refresca la imgaen luego de eleminar la pelotita.
+                Graphics g = this.pctbxMiImagen.CreateGraphics();
+                g.Clear(pctbxMiImagen.BackColor);
+
+            }
+            catch (Exception)
+            {           }
+
+            
         }
 
         private void btnReanudar_Click(object sender, EventArgs e)
         {
+            if(this.mithread.ThreadState == ThreadState.Suspended)
             this.Reanudar();
         }
     }
