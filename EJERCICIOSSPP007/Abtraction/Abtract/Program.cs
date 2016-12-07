@@ -42,6 +42,94 @@ namespace Abtract
 
 
             Console.ReadKey();
+            
+            
+    public static class MétodosExtensión
+    {
+        // PUNTO 1
+        public static bool EsPar(this Int32 obj)
+        {
+            if ((obj % 2) == 0)
+                return true;
+            return false;
+        }
+
+        public static bool EsImpar(this Int32 obj)
+        {
+            return !(obj.EsPar());
+        }
+    }
+
+    
+    
+    
+    public class ProdExport : Producto
+    {
+        public int Cantidad;
+
+        public ProdExport()
+            : base()
+        {
+
+        }
+    }
+    
+    
+    public class ProdImpuesto : Producto
+    {
+        public int Cantidad;
+
+        public ProdImpuesto()
+            : base()
+        {
+
+        }
+        
+        
+    public class ProdVendido : Producto
+    {
+        public int Cantidad;
+
+        public ProdVendido()
+            : base()
+        {
+
+        }
+    }
+   
+    
+    
+    
+    
+    
+        [Serializable]
+    [XmlInclude(typeof(ProdVendido)), XmlInclude(typeof(ProdImpuesto)), XmlInclude(typeof(ProdExport)), XmlInclude(typeof(Deposito)), XmlInclude(typeof(Galpon<Deposito>))]
+    public class Producto
+    {
+        public string Nombre;
+        public int Stock;
+
+        public Producto(string nombre, int stock)
+        {
+            this.Nombre = nombre;
+            this.Stock = stock;
+        }
+
+        public Producto()
+        {
+            // para serializar.
+        }
+
+        public static bool operator ==(Producto uno, Producto dos)
+        {
+            if (uno.Nombre == dos.Nombre)
+                return true;
+            return false;
+        }
+
+        public static bool operator !=(Producto uno, Producto dos)
+        {
+            return !(uno == dos);
         }
     }
 }
