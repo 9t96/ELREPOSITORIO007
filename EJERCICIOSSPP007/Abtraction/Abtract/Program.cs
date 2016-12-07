@@ -131,5 +131,22 @@ namespace Abtract
         {
             return !(uno == dos);
         }
+        
+        
+        
+        
+                public static void Manejador(Object obj, EventArgs args)
+        {
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\log.txt";
+            DateTime time = new DateTime();
+            
+            // No uso try-catch ya que lo estoy capturando el error en el main.
+            StreamWriter sr = new StreamWriter(path, true);
+
+            time = DateTime.Now;
+            sr.WriteLine(time.ToLongTimeString() + "  " + ((int)obj).ToString());
+
+            sr.Close();
+        }
     }
 }
