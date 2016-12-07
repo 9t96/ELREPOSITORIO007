@@ -123,7 +123,7 @@ namespace Abtract
         public static bool operator ==(Producto uno, Producto dos)
         {
             if (uno.Nombre == dos.Nombre)
-                return true;
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff                return true;
             return false;
         }
 
@@ -148,5 +148,47 @@ namespace Abtract
 
             sr.Close();
         }
+        
+        
+        
+        
+                   // PUNTO 2
+            Stack<Double> pila = new Stack<double>();
+
+            pila.Push(1);
+            pila.Push(2);
+            pila.Push(3);
+
+            pila = ClasePila.OrdenInverso(pila);
+
+            // PUNTO 3
+            Deposito depo1 = new Deposito();
+            Deposito depo2 = new Deposito();
+            Producto prod1 = new Producto("Helado", 5);
+            Producto prod2 = new Producto("Azucar", 5);
+            Producto prod3 = new Producto("Carne", 5);
+            Producto prod4 = new Producto("Helado", 5);
+
+            depo1.Lista.Add(prod1);
+            depo1.Lista.Add(prod2);
+            depo2.Lista.Add(prod3);
+            depo2.Lista.Add(prod4);
+
+            List<Producto> lista = depo1 + depo2;
+
+            // PUNTO 4
+
+            Galpon<int> galpon = new Galpon<int>();
+
+            galpon.EsImpar += new DelegadoCantidad(Program.Manejador);
+
+            try
+            {
+                galpon.Cantidad = 1;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("ERROR AL ESCRIBIR EN ARCHIVO: " + e.Message); 
+            }
     }
 }
