@@ -1,0 +1,12 @@
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\bin\Debug\Main.exe.config
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\bin\Debug\Main.exe
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\bin\Debug\Main.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\bin\Debug\PuntoUno MetodosExtension.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\bin\Debug\PuntoUno MetodosExtension.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\obj\Debug\Main.exe
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\obj\Debug\Main.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\bin\Debug\Burbujeo.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\bin\Debug\Burbujeo.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\bin\Debug\PuntoTres Deposito.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Main\bin\Debug\PuntoTres Deposito.pdb

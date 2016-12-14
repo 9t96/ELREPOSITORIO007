@@ -1,0 +1,5 @@
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Burbujeo\bin\Debug\Burbujeo.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Burbujeo\bin\Debug\Burbujeo.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Burbujeo\obj\Debug\Burbujeo.csprojResolveAssemblyReference.cache
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Burbujeo\obj\Debug\Burbujeo.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\Burbujeo\obj\Debug\Burbujeo.pdb

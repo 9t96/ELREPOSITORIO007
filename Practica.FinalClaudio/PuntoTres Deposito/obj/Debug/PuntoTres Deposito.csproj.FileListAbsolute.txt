@@ -1,0 +1,5 @@
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoTres Deposito\obj\Debug\PuntoTres Deposito.csprojResolveAssemblyReference.cache
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoTres Deposito\bin\Debug\PuntoTres Deposito.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoTres Deposito\bin\Debug\PuntoTres Deposito.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoTres Deposito\obj\Debug\PuntoTres Deposito.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoTres Deposito\obj\Debug\PuntoTres Deposito.pdb

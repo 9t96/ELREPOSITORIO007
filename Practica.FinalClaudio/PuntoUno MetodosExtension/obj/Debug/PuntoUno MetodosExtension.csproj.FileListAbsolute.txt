@@ -1,0 +1,5 @@
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoUno MetodosExtension\bin\Debug\PuntoUno MetodosExtension.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoUno MetodosExtension\bin\Debug\PuntoUno MetodosExtension.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoUno MetodosExtension\obj\Debug\PuntoUno MetodosExtension.csprojResolveAssemblyReference.cache
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoUno MetodosExtension\obj\Debug\PuntoUno MetodosExtension.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoUno MetodosExtension\obj\Debug\PuntoUno MetodosExtension.pdb

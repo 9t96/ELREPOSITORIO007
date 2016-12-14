@@ -1,0 +1,9 @@
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoCuatro Galpon\obj\Debug\PuntoCuatro Galpon.csprojResolveAssemblyReference.cache
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoCuatro Galpon\bin\Debug\PuntoCuatro Galpon.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoCuatro Galpon\bin\Debug\PuntoCuatro Galpon.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoCuatro Galpon\bin\Debug\PuntoTres Deposito.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoCuatro Galpon\bin\Debug\PuntoUno MetodosExtension.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoCuatro Galpon\bin\Debug\PuntoTres Deposito.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoCuatro Galpon\bin\Debug\PuntoUno MetodosExtension.pdb
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoCuatro Galpon\obj\Debug\PuntoCuatro Galpon.dll
+f:\documentos\visual studio 2015\Projects\Practica.FinalClaudio\PuntoCuatro Galpon\obj\Debug\PuntoCuatro Galpon.pdb
